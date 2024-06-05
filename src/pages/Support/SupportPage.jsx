@@ -7,13 +7,17 @@ import Title from "../../components/Title/Title";
 import Card from "../../components/Card/Card";
 
 const faqItems = [
-  { href: "/faq/coupon", text: "Não recebo cupom de desconto" },
-  { href: "/faq/delete-card", text: "Excluir dados do cartão de crédito" },
+  { href: "/faq/coupon", text: "Não consigo acessar informações" },
+  { href: "/faq/delete-card", text: "Não consigo ver as entregas" },
   { href: "/faq/update-account", text: "Quero alterar dados cadastrais" },
 ];
 
 const supportItems = [
   { href: "/faq/coupon", text: "Desejo falar com um atendente", arrowClass: styles.arrowServices },
+];
+
+const supportTraining = [
+  { href: "/faq/coupon", text: "Desejo obter treinamento do sistema", arrowClass: styles.arrowServices },
 ];
 
 const FaqList = ({ items }) => (
@@ -40,10 +44,17 @@ export default function SupportPage() {
           </div>
         </Card>
 
-        <Card>
+        <Card additionalStyles={{ marginBottom: "30px" }}>
           <div className={styles.cardContent}>
             <h3 className={styles.cardTitle}>Atendimentos</h3>
             <FaqList items={supportItems} />
+          </div>
+        </Card>
+
+        <Card>
+          <div className={styles.cardContent}>
+            <h3 className={styles.cardTitle}>Atendimentos</h3>
+            <FaqList items={supportTraining} />
           </div>
         </Card>
       </Modal>
