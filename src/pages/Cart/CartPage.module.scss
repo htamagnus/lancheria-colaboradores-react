@@ -1,0 +1,107 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; // Espaçamento entre os cards
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.texts h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.texts p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.price {
+  margin-left: auto;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.image {
+  padding-right: 20px;
+}
+
+.cardContainer {
+  position: relative; // Define o contexto de posicionamento relativo
+  padding-bottom: 22px; // Espaçamento inferior para o card
+}
+
+.quantityControls {
+  display: flex;
+  align-items: center;
+  position: absolute; // Posiciona os controles de quantidade de forma absoluta
+  right: 20px; // Ajusta a posição para a direita
+  bottom: 38px; // Ajusta a posição para a parte inferior
+}
+
+.quantityButton {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.quantityNumber {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.totalContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+  height: 34px;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  border: 3px solid #F19891; 
+  border-radius: 10px; 
+  padding: 10px 20px;
+}
+
+.totalText {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.totalValue {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .totalContainer {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .totalText, .totalValue {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .totalContainer {
+    width: 300px;
+  }
+
+  .totalText, .totalValue {
+    font-size: 16px;
+  }
+}
+

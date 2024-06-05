@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 0;
+    width: 100%;
+}
+
+.card img {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+    margin-left: 12px;
+}
+
+.card p {
+    text-align: left;
+    font-size: 18px;
+    margin: 0;
+    flex: 1; /* Adicionado para ocupar o espaço disponível */
+}
+
+.divider {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.418);
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 17px;
+}

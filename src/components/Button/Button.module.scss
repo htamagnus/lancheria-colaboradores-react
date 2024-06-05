@@ -1,0 +1,26 @@
+@import "../../styles/variables.scss";
+
+.button {
+    width: 500px;
+    height: 56px;
+    background-color: $primary-color;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px; // Adiciona margem superior para espaçamento
+    font-weight: bold;
+    font-size: 20px;
+
+    @media (max-width: 768px) {
+      width: 90%;
+      font-size: 18px;
+    }
+  
+    @media (max-width: 480px) {
+      width: 300px;
+      font-size: 16px;
+    }
+  }
+
+  

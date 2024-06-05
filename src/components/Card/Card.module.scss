@@ -1,0 +1,23 @@
+@import "../../styles/variables.scss";
+
+.card {
+    padding: 0px 20px 0px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    background-color: $secondary-color;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    
+    @media (max-width: 768px) {
+      padding: 0px 15px;
+      width: 370px;
+    }
+  
+    @media (max-width: 480px) {
+      padding: 10px 10px;
+      width: 300px;
+    }
+  }
+
+  
