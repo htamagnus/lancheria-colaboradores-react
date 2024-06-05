@@ -23,7 +23,7 @@ const charts = [
 
 const links = [
   { to: "/profile", label: "Perfil" },
-  { to: "/order", label: "Pedidos" },
+  { to: "/order-management", label: "Pedidos" },
   { to: "/chat", label: "Chat Interno" },
   { to: "/stock", label: "Estoque" },
   { to: "/deliveries", label: "Entregas" },
