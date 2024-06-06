@@ -52,7 +52,7 @@ export default function OrderManagementPage() {
     return (
         <Background>
             <Modal>
-                <Title text="Gerenciamento de Pedidos" arrow={backArrow} redirectTo="/home"></Title>
+                <Title text="Gerenciamento Pedidos" arrow={backArrow} redirectTo="/home"></Title>
                 {orders.map((order, index) => (
                     <OrderManagementCard
                         key={index}

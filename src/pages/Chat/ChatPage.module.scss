@@ -44,7 +44,7 @@
   .sender {
     align-self: flex-end;
     background-color: #f1f0f0;
-    margin-left: 300px;
+    margin-left: 120px;
   }
   
   .footer {
@@ -54,4 +54,13 @@
     margin-bottom: 30px;
     font-weight: 200;
   }
-  
+
+  @media (max-width: 768px) {
+    .timestamp {
+      margin-left: 80px;
+    }
+
+    .footer {
+      margin-left: 80px;
+    }
+  }
