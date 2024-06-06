@@ -3,16 +3,16 @@
 [vercel_BADGE]: https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge
 [vscode_BADGE]: https://img.shields.io/badge/VS%20Code-007ACC?logo=visual-studio-code&logoColor=white&style=for-the-badge
 
-<h1 align="center" style="font-weight: bold;">Lancheria - Clientes 🍔👥</h1>
+<h1 align="center" style="font-weight: bold;">Lancheria - Colaboradores 🍔👷</h1>
 
 <div align="center">
   
-<img src="https://images2.imgbox.com/7f/ac/xaWUK18Z_o.png">
+<img src="https://images2.imgbox.com/8d/24/uvunbCzG_o.png">
 
 </br>
 </br>
 
-🔗 [Link](https://lancheria-clientes-react.vercel.app/) para acessar o projeto
+🔗 [Link](https://lancheria-colaboradores-react.vercel.app/) para acessar o projeto
 
 </br>
 
